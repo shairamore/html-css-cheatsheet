@@ -3,7 +3,9 @@
 }
 
 .banner {
-    background-color: palevioletred;
+    background-image: url("https://i.pinimg.com/736x/e9/62/07/e96207996c63881879a8953a8d8c0aea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 20px;
 }
