@@ -1,0 +1,46 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.banner {
+    background-color: palevioletred;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-family: "Fredoka One", Helvetica, sans-serif;
+    font-size: 100px;
+    font-color: white;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    border: 2px solid palevioletred;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: pink;
+}
+  
+td {
+    border-top: 1px solid palevioletred;
+    border-left: 1px solid palevioletred;
+    border-right: 1px solid palevioletred;
+    padding: 10px;
+}
+  
+.code {
+    font-family: monospace;
+    background-color: lightgray;
+}
+
+.emphasize span {
+    font-style: bold;
+}

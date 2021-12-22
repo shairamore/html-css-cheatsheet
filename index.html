@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML and CSS Cheatsheet</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner">
+            <h1 class="title">Learn How to Code</h1>
+            <p>An HTML and CSS cheatsheet for newbies</p>
+            <p><span class="italic">by Shaira Lapus</span></p>
+        </div>
+
+        <div class="topic 1">
+            <h2>Basic HTML structure</h2>
+            <p>There are no strict rules when it comes to HTML, but it is important to know 
+                and understand the basic structure to create a functional website. It is also
+                important to understand the hierarchy and arrangement of different <span class="emphasize">HTML tags</span>
+                for your page to render properly.</p>
+            <h3>HTML tags</h3>
+            <p>HTML tags are keywords that helps the web browser translate the code into a reader-friendly format and
+                determines how the code is displayed to a web page. HTML tags contain three parts: opening tag, content,
+                and closing tag. The syntax is as follows:
+            </p>
+            <p><span class="code">&lt;opening tag&gt;content&lt;/closing tag&gt;</span></p>
+            
+            <p>Here are the most basic HTML tags:</p>
+            <table>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="code">&lt;!DOCTYPE html&gt;</span></td>
+                        <td>HTML document type declaration</td>
+                        <td>The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in.
+                            It is the first line of code required in every HTML or XHTML document.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;html&gt;</span></td>
+                        <td>HTML tag</td>
+                        <td>The root element that makes up a web page. Everything else in your web page are wrapped
+                            between the HTML tag, otherwise your content will not show.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;head&gt;</span></td>
+                        <td>Head</td>
+                        <td>Metadata such as the webpage title and CSS links are stored between this tag.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;body&gt;</span></td>
+                        <td>Body</td>
+                        <td>All of the displayable content such as headlines, paragraphs, and images are written
+                            between these tags otherwise it will not be displayed on your web page.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;div&gt;</span></td>
+                        <td>Division / Section</td>
+                        <td>Used to section contents of your web page.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;h1&gt;</span></td>
+                        <td>Heading 1</td>
+                        <td>The highest level of heading which has the largest font size in the HTML document.
+                            This is usually used for headlines and displaying the web page title. Typically 
+                            followed by &lt;h2&gt;, &lt;h3&gt;, up to &lt;h6&gt; tags.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">&lt;p&gt;</span></td>
+                        <td>Paragraph</td>
+                        <td>Displays blocks of text.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><span class="emphasize">Reminder:</span> do not forget to put the closing tags after the opening tag. Not putting closing tags will mess up your code.</p>
+        </div>
+    </body>
+</html>
